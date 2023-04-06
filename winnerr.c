@@ -1,0 +1,69 @@
+#include<stdio.h>
+int main()
+{
+    int t,i,pa,pb,qa,qb;
+    scanf("%d",&t);
+    for(i=0;i<t;i++)
+    {
+        scanf("%d %d %d %d",&pa,&pb,&qa,&qb);
+        if(pa>=pb)
+        {
+            if(qa>=qb)
+            {
+                if(pa>qa)
+                {
+                    printf("Q\n");
+                }else{
+                    if(qa>pa)
+                    {
+                        printf("P\n");
+                    }else{
+                        printf("TIE\n");
+                    }
+                }
+            }else{
+                if(pa>qb)
+                {
+                    printf("Q\n");
+                }else{
+                    if(qb>pa)
+                    {
+                        printf("P\n");
+                    }else{
+                        printf("TIE\n");
+                    }
+                }
+            }
+        }else{
+
+            if(qa>=qb)
+            {
+                if(pb>qa)
+                {
+                    printf("Q\n");
+                }else{
+                    if(qa>pb)
+                    {
+                        printf("P\n");
+                    }else{
+                        printf("TIE\n");
+                    }
+                }
+            }else{
+                if(pb>qb)
+                {
+                    printf("Q\n");
+                }else{
+                    if(qb>pb)
+                    {
+                        printf("P\n");
+                    }else{
+                        printf("TIE\n");
+                    }
+                }
+            }
+
+        }
+    }
+    return 0;
+}
