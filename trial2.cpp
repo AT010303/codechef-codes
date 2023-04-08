@@ -238,38 +238,58 @@
 
 
 
-#include <iostream>
-#include <string>
+// #include <iostream>
+// #include <string>
 
+// using namespace std;
+
+// int main() {
+//     string S;
+//     cin >> S;
+
+//     int n = S.length();
+//     int count = 0;
+//     string X(n, '0');
+
+//     for (int i = 0; i < n - 1; i++) {
+//         if (S[i] == '1') {
+//             X[i] = '1';
+//             X[i + 1] = (X[i + 1] == '0' ? '1' : '0');
+//         }
+//     }
+
+//     if (S[n - 1] == '1') {
+//         X[n - 1] = '1';
+//         count++;
+//     }
+
+//     for (int i = 0; i < n; i++) {
+//         if (X[i] == '1') {
+//             count++;
+//         }
+//     }
+
+//     cout << count << endl;
+
+//     return 0;
+// }
+
+
+#include "bits/stdc++.h"
 using namespace std;
+typedef long long int ll;
+typedef vector<int> vi;
+typedef pair<int, int> pi;
+#define PB push_back
+#define POB pop_back
+#define MP make_pair
+int main(){
+    ios::sync_with_stdio(0);
+    cin.tie(0);
 
-int main() {
-    string S;
-    cin >> S;
-
-    int n = S.length();
-    int count = 0;
-    string X(n, '0');
-
-    for (int i = 0; i < n - 1; i++) {
-        if (S[i] == '1') {
-            X[i] = '1';
-            X[i + 1] = (X[i + 1] == '0' ? '1' : '0');
-        }
-    }
-
-    if (S[n - 1] == '1') {
-        X[n - 1] = '1';
-        count++;
-    }
-
-    for (int i = 0; i < n; i++) {
-        if (X[i] == '1') {
-            count++;
-        }
-    }
-
-    cout << count << endl;
+        double a = 10/3;
+        cout<<a;
 
     return 0;
 }
+

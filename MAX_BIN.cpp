@@ -35,7 +35,7 @@ int main(){
             // for(int i=0;i<k-1;i++){
             //     str = str + '0';
             // }
-            str.resize(k , '0');
+            str.resize(k-1 , '0');
             s = s + str;
             cout<<s<<endl;
 

@@ -16,20 +16,29 @@ int main(){
         int x ,y;
         cin>>x>>y;
         int temp =y;
+        int time =0 ;
 
         if(x<=y){
             cout<<0<<endl;
             return 0;
         }
 
-        for(int i =1 ; i<=x-y;i++){
+        // for(int i =1 ; i<=x-y;i++){
 
-            temp  = temp + i*(i+1)/2;
-            if(temp>=x){
-                cout<<i<<endl;
-                break;
-            }
+        //     temp  = temp + i*(i+1)/2;
+        //     if(temp>=x){
+        //         cout<<i<<endl;
+        //         break;
+        //     }
+        // }
+
+        while(temp < x){
+            time++;
+            temp = temp + time;
+
         }
+
+        cout<<time<<endl;
 
     }
     return 0;
