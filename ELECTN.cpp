@@ -13,16 +13,16 @@ int main(){
     cin >> T;
     while (T--){
 
-        int n;
-        cin>>n;
-        int i;
+        int n , x;
+        cin>>n>>x;
+        //int i;
         int a[n];
         int count = 0;
-        cin >>i;
+        //cin >>i;
 
         for(int j=0;j<n;j++){
-            cin>>a[i];
-            if(a[i]>= i){
+            cin>>a[j];
+            if(a[j]>= x){
                 count++;
             }
         }
