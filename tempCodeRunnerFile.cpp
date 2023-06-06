@@ -1,3 +1,2 @@
-for(int i=0;i<n;i++){
-                    cout<<a[i]<<"\t";
-                }
+s::sync_with_stdio(0);
+    // cin.tie(0);
