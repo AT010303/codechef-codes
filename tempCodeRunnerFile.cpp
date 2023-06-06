@@ -1,6 +1,2 @@
-
-void fun(){
-
-
-	cout<<"hello\n";
-}
+s::sync_with_stdio(0);
+    // cin.tie(0);
