@@ -13,6 +13,8 @@ int main()
                     cin>>a[i];
                 }
 
+                string s = "hello";
+                if(s[0] == )
                 
             }
     return 0;
